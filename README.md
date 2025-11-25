@@ -1,8 +1,9 @@
 # Task 1 ： Model Training with checkpoint and comparision 
 
 ## Checkpoint
+
 ```python
-## Checkpoint
+
 trainer = SFTTrainer(
     model = model,
     tokenizer = tokenizer,
@@ -17,6 +18,7 @@ trainer = SFTTrainer(
 )
 
 trainer_stats = trainer.train(resume_from_checkpoint=True)
+```
 
 
 
