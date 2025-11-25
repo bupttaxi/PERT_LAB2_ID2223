@@ -1,5 +1,24 @@
 # Task 1 ： Model Training with checkpoint and comparision 
 
+## Checkpoint
+```python
+## Checkpoint
+trainer = SFTTrainer(
+    model = model,
+    tokenizer = tokenizer,
+    ...
+        # checkpoint
+        save_strategy = "steps",
+        save_steps = 300,
+        save_total_limit = 3,          # save latest 3 cp
+        # -----------------------------------------------------------------
+        ...
+    ),
+)
+
+trainer_stats = trainer.train(resume_from_checkpoint=True)
+
+
 
 ##  1， Model Resource Comparison (1B vs 3B)
 
