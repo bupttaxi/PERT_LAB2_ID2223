@@ -19,7 +19,7 @@ trainer = SFTTrainer(
 
 trainer_stats = trainer.train(resume_from_checkpoint=True)
 ```
-
+** By enabling checkpoints, we can resume training from the most recent saved checkpoint instead of starting from scratch. **
 
 
 ##  1， Model Resource Comparison (1B vs 3B)
