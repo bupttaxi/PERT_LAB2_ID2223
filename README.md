@@ -37,9 +37,7 @@ trainer_stats = trainer.train(resume_from_checkpoint=True)
 
 
 
-### 📝 **Comment**  
-The **1B model is significantly lighter and faster**
-to train, whereas the 3B model requires more computation cost.
+* 📝 **Comment** : The **1B model is significantly lighter and faster** to train, whereas the 3B model requires more computation cost.
 
 
 ##  2， Inference Output Comparison
