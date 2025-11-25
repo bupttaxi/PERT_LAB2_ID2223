@@ -24,6 +24,8 @@ trainer_stats = trainer.train(resume_from_checkpoint=True)
 
 ##  1， Model Resource Comparison (1B vs 3B)
 
+We trained both the 1B and 3B models for 1 epoch using a Colab Pro A100 GPU.
+
 | Metric | Llama 1B | Llama 3B |
 |--------|----------|-----------|
 | **Total Training Time** | 3 h 09 min | 5 h 38 min |
