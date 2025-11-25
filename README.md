@@ -14,7 +14,8 @@
 
 
 ### 📝 **Comment**  
-*The 1B model is significantly lighter and faster to train, whereas the 3B model requires more computation cost.*
+*The 1B model is significantly <span style="color:red; font-weight:bold">lighter and faster</span>
+to train, whereas the 3B model requires more computation cost.*
 
 ---
 
