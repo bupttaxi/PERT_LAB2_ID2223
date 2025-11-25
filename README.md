@@ -37,7 +37,7 @@ The **3B model provides more focused, relevant, and instruction-following output
 
 ---
 
-## Our Choice
+## ✅ Our Choice
 
 Although the 1B model is smaller (808 MB), faster to train, and more resource-efficient,  
 **the 3B model consistently delivers superior inference quality**, with clearer reasoning, better instruction following, and more coherent descriptions.
