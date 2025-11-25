@@ -1,7 +1,7 @@
 # Task 1 ： Model Training with checkpoint and comparision 
 
 
-##  Model Resource Comparison (1B vs 3B)
+##  1， Model Resource Comparison (1B vs 3B)
 
 | Metric | Llama 1B | Llama 3B |
 |--------|----------|-----------|
@@ -20,9 +20,8 @@
 The **1B model is significantly lighter and faster**
 to train, whereas the 3B model requires more computation cost.
 
---
 
-##  Inference Output Comparison
+##  2， Inference Output Comparison
 
 
 
@@ -35,7 +34,6 @@ to train, whereas the 3B model requires more computation cost.
 ### 📝 **Comment**  
 The **3B model provides more focused, relevant, and instruction-following outputs**, while the 1B model tends to be verbose, less precise, and more prone to drifting away from the prompt.
 
---
 
 ## ✅ Our Choice
 
