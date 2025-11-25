@@ -24,18 +24,11 @@ to train, whereas the 3B model requires more computation cost.
 
 ##  Inference Output Comparison
 
-### **Inference 1: Fibonacci Continuation**
+
 
 | Prompt | Llama 1B Output | Llama 3B Output |
 |--------|------------------|------------------|
 | **"Continue the Fibonacci sequence: 1, 1, 2, 3, 5, 8,"** | Continuing the Fibonacci sequence after the given numbers (1, 1, 2, 3, 5, 8) is a logical process as each number is the sum of the two preceding ones...<br><br>1, 1, 2, 3, 5, 8, **13, 21, 34, 55, 89,...**<br> *Ends with unnecessary commentary: “It seems to take more numbers.”* | The next two terms in the Fibonacci sequence would be **13** and **21**.<br><br>1, 1, 2, 3, 5, 8, **13, 21, 34, 55, 89, 144, 233, 377** |
-
-
-
-### **Inference 2: “Describe a tall tower in the capital of France.”**
-
-| Prompt | Llama 1B Output | Llama 3B Output |
-|--------|------------------|------------------|
 | **"Describe a tall tower in the capital of France."** | In the heart of Paris, France, I envision a towering structure that commands admiration from the city's residents and visitors alike. The tall tower in question stands at an impressive height of over 150 meters, making it one of the tallest buildings in the European capital.The tower's *sleek, modern design is a striking blend of art deco and contemporary architecture*. Its exterior is clad in *gleaming white glass panels, creating a sparkling, reflective surface that seems to ripple and shift in the light*. At dusk, the tower's facade is transformed into a kaleidoscope of colors, as if it's being set ablaze from within.As one | *A tall tower can be described as a grand structure that stands proudly in the capital of France. This tower is situated in the heart of the city and serves as a landmark for locals and visitors alike*. It is tall and slender, with each successive tier rising above the last until the tower reaches the sky.The tower itself is constructed with fine white limestone that reflects the sunlight and catches the eye of everyone passing by. The sides of the tower are adorned with intricate carvings of historical scenes, depicting the nation's glorious past and its cultural heritage.The tower has a large glass roof on the top floor, providing breathtaking views of the city|
 
 
