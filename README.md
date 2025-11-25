@@ -41,3 +41,10 @@ The **3B model provides more focused, relevant, and instruction-following output
 
 ---
 
+## Our Choice
+
+Although the 1B model is smaller (808 MB), faster to train, and more resource-efficient,  
+**the 3B model consistently delivers superior inference quality**, with clearer reasoning, better instruction following, and more coherent descriptions.
+
+**Therefore, we conclude that the 3B fine-tuned model is the better choice for deployment in our Gradio UI**, offering a significantly better user experience while remaining lightweight enough for CPU-based inference through GGUF quantization.
+
