@@ -1,4 +1,4 @@
-## 📊 Model Resource Comparison (1B vs 3B)
+##  Model Resource Comparison (1B vs 3B)
 
 | Metric | Llama 1B | Llama 3B |
 |--------|----------|-----------|
@@ -19,7 +19,7 @@ to train, whereas the 3B model requires more computation cost.
 
 ---
 
-## 🤖 Inference Output Comparison
+##  Inference Output Comparison
 
 ### **Inference 1: Fibonacci Continuation**
 
