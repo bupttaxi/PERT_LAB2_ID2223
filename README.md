@@ -1,4 +1,4 @@
-## Task 1 ： Model Training with checkpoint and comparision ##
+# Task 1 ： Model Training with checkpoint and comparision 
 
 
 ##  Model Resource Comparison (1B vs 3B)
