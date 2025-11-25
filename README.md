@@ -44,3 +44,6 @@ Although the 1B model is smaller (808 MB), faster to train, and more resource-ef
 
 **Therefore, we conclude that the 3B fine-tuned model is the better choice for deployment in our Gradio UI**, offering a significantly better user experience while remaining lightweight enough for CPU-based inference through GGUF quantization.
 
+
+# TASK 2: To be done
+
