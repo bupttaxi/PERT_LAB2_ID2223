@@ -65,5 +65,7 @@ Although the 1B model is smaller (808 MB), faster to train, and more resource-ef
 ---
 
 
-# TASK 2: To be done
+# TASK 2: UI demonstration
+
+To be done...
 
