@@ -1,6 +1,6 @@
 # Task 1 ： Model Training with checkpoint and comparision 
 
-## Checkpoint
+## 0， Checkpoint
 
 ```python
 
