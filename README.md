@@ -61,6 +61,9 @@ Although the 1B model is smaller (808 MB), faster to train, and more resource-ef
 
 **Therefore, we conclude that the 3B fine-tuned model is the better choice for deployment in our Gradio UI**, offering a significantly better user experience while remaining lightweight enough for CPU-based inference through GGUF quantization.
 
+URL for notebooks
+1B  https://colab.research.google.com/drive/1GdtsuX4bBkIAAi_owXPmCkscrmNfJAZw
+3B  https://colab.research.google.com/drive/1yDOP3cQiEOq4vUgi1m9dwDtdR_LvTQ_b#scrollTo=FqfebeAdT073
 
 ---
 
@@ -68,4 +71,13 @@ Although the 1B model is smaller (808 MB), faster to train, and more resource-ef
 # TASK 2: UI demonstration
 
 To be done...
+
+1， Describe in your README.md program ways in which you can improve
+model performance are using
+(a) model-centric approach - e.g., tune hyperparameters, change the
+fine-tuning model architecture, etc
+(b) data-centric approach - identify new data sources that enable you to
+train a better model that one provided in the blog post
+
+2， UI URL
 
