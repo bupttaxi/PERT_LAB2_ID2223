@@ -74,12 +74,12 @@ URL for notebooks
 
 To be done...
 
-1， Describe in your README.md program ways in which you can improve
-model performance are using
-(a) model-centric approach - e.g., tune hyperparameters, change the
-fine-tuning model architecture, etc
-(b) data-centric approach - identify new data sources that enable you to
-train a better model that one provided in the blog post
+1， Describe in your README.md program ways in which you can improve model performance are using
+
+(a) model-centric approach - e.g., tune hyperparameters, change the fine-tuning model architecture, etc
+
+(b) data-centric approach - identify new data sources that enable you to train a better model that one provided in the blog post
+
 
 2， UI URL
 
