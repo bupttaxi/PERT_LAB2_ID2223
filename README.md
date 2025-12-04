@@ -70,16 +70,46 @@ URL for notebooks
 ---
 
 
-# TASK 2: UI demonstration
+# Task 2: UI Demonstration
 
-To be done...
+## 1. Ways to Improve Model Performance
 
-1， Describe in your README.md program ways in which you can improve model performance are using
+### **(a) Model-Centric Approach (improving the model itself)**
 
-(a) model-centric approach - e.g., tune hyperparameters, change the fine-tuning model architecture, etc
+Model-centric improvements adjust **training settings, hyperparameters, or architecture** to make the model perform better using the same data.
 
-(b) data-centric approach - identify new data sources that enable you to train a better model that one provided in the blog post
+Examples:
 
+* **Increase training epochs** to allow deeper task learning.
+* **Tune the learning rate / scheduler** for more stable optimization.
+* **Adjust LoRA parameters** (e.g., higher rank or different α) for better adaptation.
+* **Use a stronger base model** (e.g., 3B instead of 1B, or switch to Mistral/Gemma/Qwen).
+* **Optimize batch size / gradient accumulation** to smooth gradient updates.
 
-2， UI URL
+**In short:** improve the model by changing how it is trained or structured.
+
+---
+
+### **(b) Data-Centric Approach (improving the training data)**
+
+Data-centric improvements enhance **data quality, diversity, and task relevance**, often yielding large gains for small models.
+
+Examples:
+
+* **Clean the dataset** by removing duplicates, noisy samples, or inconsistent formatting.
+* **Add domain-specific data** (e.g., technical Q&A, customer support, finance, etc.).
+* **Include more diverse instruction datasets** like Alpaca, ShareGPT, or Hermes.
+* **Apply data quality analysis** (e.g., FineTome-style filtering) to keep only high-quality samples.
+
+**In short:** improve model performance by improving the data it learns from.
+
+---
+
+## 2. UI URL
+
+*(Add your Hugging Face Space link here once deployed.)*
+
+---
+
+If you'd like, I can help you integrate this smoothly into your README formatting.
 
