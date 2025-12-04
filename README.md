@@ -107,9 +107,7 @@ Examples:
 
 ## 2. UI URL
 
-*(Add your Hugging Face Space link here once deployed.)*
+*https://huggingface.co/spaces/Datangtang/iris*
 
----
 
-If you'd like, I can help you integrate this smoothly into your README formatting.
 
