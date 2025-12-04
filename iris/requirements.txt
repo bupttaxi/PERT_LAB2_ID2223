@@ -1,0 +1,10 @@
+transformers>=4.36.0
+peft>=0.7.0
+accelerate>=0.25.0
+torch>=2.0.0
+llama-cpp-python==0.2.90 --extra-index-url https://abetlen.github.io/llama-cpp-python/whl/cpu
+huggingface_hub
+gradio
+sentencepiece
+protobuf
+huggingface_hub
