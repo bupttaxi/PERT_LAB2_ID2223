@@ -109,5 +109,12 @@ Examples:
 
 *https://huggingface.co/spaces/Datangtang/iris*
 
+We tried with different prompt and we see that:
+1) Llama-3 3B produces more detailed, human-like explanations with richer vocabulary and clearer logical flow.
+2) Llama-3 1B outputs shorter, more formulaic text that is correct but less nuanced.
+This aligns with expectations: larger models typically exhibit stronger reasoning, elaboration, and stylistic variation and there is no big difference in time cost between these two models, so
+
+### Our Best Choice is Llama 3B
+
 
 
