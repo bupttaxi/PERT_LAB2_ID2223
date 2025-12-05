@@ -7,13 +7,22 @@
 trainer = SFTTrainer(
     model = model,
     tokenizer = tokenizer,
+
     ...
+
+    args = TrainingArguments(
+
+        ...
+
+        num_train_epochs = 1, # Set this for 1 full training run.
+
+        ...
+        
         # checkpoint
         save_strategy = "steps",
         save_steps = 300,
         save_total_limit = 3,          # save latest 3 cp
         # -----------------------------------------------------------------
-        ...
     ),
 )
 
